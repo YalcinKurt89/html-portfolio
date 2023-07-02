@@ -51,10 +51,9 @@
   
   /* Style the footer */
   footer {
-    background-color: #777;
+    background-color: white;
     padding: 10px;
     text-align: center;
-    color: white;
   }
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
