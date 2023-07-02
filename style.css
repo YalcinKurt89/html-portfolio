@@ -29,6 +29,10 @@
     list-style-type: none;
     padding: 0;
   }
+
+  nav ul li a {
+    text-decoration: none;
+  }
   
   article {
     float: left;
