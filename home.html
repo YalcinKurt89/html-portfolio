@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Website</title>
+
+    <script>
+      function changeText(text) {
+        var textField = document.getElementById('text-field');
+        textField.textContent = text;
+      }
+    </script>
 </head>
 <body>
     
@@ -17,21 +24,21 @@
     <section>
       <nav>
         <ul>
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="html.html">HTML &#128394;&#65039;</a></li>
-            <li><a href="css.html">CSS &#127912;</a></li>
-            <li><a href="javascript.html">JavaScript &#127882;</a></li>
+            <li><a href="#" onclick="changeText('This webpage is for testing purposes only')">HOME</a></li>
+            <li><a href="#" onclick="changeText('HTML is a markup language used for structuring and creating content on the web. It uses tags to define elements like headings, paragraphs, images, and links. Along with CSS for styling and JavaScript for interactivity, HTML forms the foundation of modern web development, allowing developers to create visually appealing and interactive websites.')">HTML &#128394;&#65039;</a></li>
+            <li><a href="#" onclick="changeText('CSS (Cascading Style Sheets) is a style sheet language used to control the visual appearance of HTML elements on a web page. It allows developers to define colors, fonts, spacing, and other styling properties. By separating the content from the presentation, CSS enables consistent and efficient design across multiple web pages.')">CSS &#127912;</a></li>
+            <li><a href="#" onclick="changeText('JavaScript is a programming language that enables interactivity and dynamic functionality on websites. It allows developers to create interactive elements, manipulate and modify content, and respond to user actions. JavaScript is widely used for client-side web development and is supported by all modern web browsers.')">JavaScript &#127882;</a></li>
         </ul>
       </nav>
       
       <article>
-        <p>This webpage is for testing purposes only</p>
+        <p id="text-field"></p>
       </article>
     </section>
     
     <footer>
       <p>Footer</p>
     </footer>
-    
+
 </body>
 </html>
