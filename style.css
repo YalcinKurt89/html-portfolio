@@ -39,6 +39,8 @@
 
   nav ul li a {
     text-decoration: none;
+    color: black;
+    font-size: x-large
   }
   
 
@@ -66,7 +68,8 @@
     float: left;
     padding: 20px;
     width: auto;
-    background-color: #f1f1f1;
+    background-color: #666;
+    color:white;
   }
 
 
@@ -76,6 +79,15 @@
     background-color: white;
     padding: 10px;
     text-align: center;
+    margin: 10vh;
+  }
+
+  footer a img {
+    width: 50px;
+  }
+
+  .icon {
+    margin: 0.8vh;
   }
   
 
